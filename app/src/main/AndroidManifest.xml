@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.vegetoes">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login" />
+        <activity
+            android:name=".home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".myaccount" />
+        <activity android:name=".shopByCategory" />
+        <activity android:name=".register" />
+        <activity android:name=".forgotPassword" />
+        <activity android:name=".phoneVerification" />
+        <activity android:name=".Offer" />
+        <activity android:name=".OrganicFruits" />
+        <activity android:name=".Fruits" />
+        <activity android:name=".ExoticVegetables" />
+        <activity android:name=".Vegetables" />
+        <activity android:name=".product_details" />
+        <activity android:name=".OfferAdapter" />
+        <activity android:name=".test"></activity>
+    </application>
+
+</manifest>

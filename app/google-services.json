@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "305218839463",
+    "firebase_url": "https://vegetoes.firebaseio.com",
+    "project_id": "vegetoes",
+    "storage_bucket": "vegetoes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305218839463:android:85534779ba803bbd",
+        "android_client_info": {
+          "package_name": "com.example.hp.vegetoes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305218839463-hicr8i5se9t0r20t27ao0f7i2ihfgcob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.vegetoes",
+            "certificate_hash": "d3b2f7de6d392a68f1d38791a2a50bb53566863a"
+          }
+        },
+        {
+          "client_id": "305218839463-l28hhs4vgjnk4icaqotf6nsg4mbb2ao3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU7eIhR0GacpQIjHTEF8o0JUPep5e8vd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305218839463-l28hhs4vgjnk4icaqotf6nsg4mbb2ao3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
